@@ -30,7 +30,7 @@ python training.py  --lr 0.01 --weight_decay 0.0 --dataset Chameleon --net GAT -
 
 ```Original_ot``` indicates whether to choose QW-loss improved GNNs (Original_ot='ot') or traditional GNNs (Original_ot='Original').
 
-```lambda_``` corresponds the wight of Bergman Divergenc.
+```lambda_``` corresponds the wight of Bergman Divergence.
 
 ```q_linear_lr``` corresponds the learning rate for label transport matrix F. 
 
