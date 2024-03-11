@@ -249,10 +249,8 @@ if __name__ == '__main__':
     parser.add_argument('--q_linear_lr', type=float, default=0.002, help='q_linear_lr.')
     parser.add_argument('--q_linear_delay', type=float, default=0.0, help='q_linear_delay.')
     parser.add_argument('--Original_ot', type=str, choices=['Original', 'ot'], default='ot')
-    parser.add_argument('--com_w_cost', type=str, choices=['ones'],
-                        default='ones')
-    parser.add_argument('--activation', type=str, choices=['sigmoid'],
-                        default='sigmoid')
+    parser.add_argument('--com_w_cost', type=str, choices=['ones'], default='ones')
+    parser.add_argument('--activation', type=str, choices=['sigmoid'], default='sigmoid')
 
 
     args = parser.parse_args()
