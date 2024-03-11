@@ -23,7 +23,7 @@ python training_badmm.py  --lr 0.002 --weight_decay 0.0 --dataset Photo --net GI
 python training.py  --lr 0.01 --weight_decay 0.0 --dataset Chameleon --net GAT --Original_ot Original
 ```
 
-* The main code framework is based on BernNet[https://github.com/ivam-he/BernNet] and ChebNetII[https://github.com/ivam-he/ChebNetII]. 
+* The main GNN framework is based on BernNet[https://github.com/ivam-he/BernNet] and ChebNetII[https://github.com/ivam-he/ChebNetII]. 
 
 ## Parameters
 
