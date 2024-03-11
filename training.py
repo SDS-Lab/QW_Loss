@@ -223,7 +223,7 @@ if __name__ == '__main__':
     parser.add_argument('--device', type=int, default=0, help='GPU device.')
     parser.add_argument('--runs', type=int, default=10, help='number of runs.')
     parser.add_argument('--net', type=str, choices=['GCN', 'GAT', "GIN", "GSAGE", 'APPNP', 'BernNet', 'ChebNetII'],
-                        default='BernNet')
+                        default='GAT')
     #ChenNetII
     parser.add_argument('--prop_lr', type=float, default=0.01, help='learning rate for propagation layer.')
     parser.add_argument('--prop_wd', type=float, default=0.0, help='learning rate for propagation layer.')
