@@ -23,6 +23,7 @@ python training_badmm.py  --lr 0.002 --weight_decay 0.0 --dataset Photo --net GI
 python training.py  --lr 0.01 --weight_decay 0.0 --dataset Chameleon --net GAT --Original_ot Original
 ```
 
+* The main code framework is based on BernNet[https://github.com/ivam-he/BernNet] and ChebNetII[https://github.com/ivam-he/ChebNetII]. 
 
 ## Parameters
 
@@ -34,6 +35,7 @@ python training.py  --lr 0.01 --weight_decay 0.0 --dataset Chameleon --net GAT -
 ```q_linear_lr``` corresponds the learning rate for label transport matrix F. 
 
 ```q_linear_delay``` corresponds the  weight decay for label transport matrix F. 
+
 
 
 
