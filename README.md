@@ -1,5 +1,5 @@
 # QW-loss
-* A Quasi-Wasserstein Loss for Learning Graph Neural Networks [https://arxiv.org/abs/2310.11762]. 
+* A Quasi-Wasserstein Loss for Learning Graph Neural Networks (WWW 2024) [https://arxiv.org/abs/2310.11762]. 
 
 ## Training & Evaluation
 
@@ -36,7 +36,14 @@ python training.py  --lr 0.01 --weight_decay 0.0 --dataset Chameleon --net GAT -
 
 ```q_linear_delay``` corresponds the  weight decay for label transport matrix F. 
 
+## Citation
 
-
-
-
+If our work can help you, please cite it
+```
+@article{cheng2023quasi,
+  title={A Quasi-Wasserstein Loss for Learning Graph Neural Networks},
+  author={Cheng, Minjie and Xu, Hongteng},
+  journal={arXiv preprint arXiv:2310.11762},
+  year={2023}
+}
+```
