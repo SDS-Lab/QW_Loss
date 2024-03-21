@@ -5,7 +5,7 @@ from torch import Tensor
 from scipy.special import comb
 from torch.nn import Parameter
 import torch.nn.functional as F
-from ChebNetII_utils import cheby
+from utils import cheby
 from typing import Optional, Tuple
 from torch_scatter import scatter_add
 from torch_geometric.nn.inits import zeros
