@@ -1,5 +1,5 @@
 # QW-loss
-* A Quasi-Wasserstein Loss for Learning Graph Neural Networks (WWW 2024) [https://arxiv.org/abs/2310.11762]. 
+* A Quasi-Wasserstein Loss for Learning Graph Neural Networks (WWW 2024) [https://dl.acm.org/doi/10.1145/3589334.3645586]. 
 
 ## Training & Evaluation
 
