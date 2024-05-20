@@ -40,10 +40,17 @@ python training.py  --lr 0.01 --weight_decay 0.0 --dataset Chameleon --net GAT -
 
 If our work can help you, please cite it
 ```
-@article{cheng2023quasi,
-  title={A Quasi-Wasserstein Loss for Learning Graph Neural Networks},
-  author={Cheng, Minjie and Xu, Hongteng},
-  journal={arXiv preprint arXiv:2310.11762},
-  year={2023}
+@inproceedings{10.1145/3589334.3645586,
+author = {Cheng, Minjie and Xu, Hongteng},
+title = {A Quasi-Wasserstein Loss for Learning Graph Neural Networks},
+year = {2024},
+isbn = {9798400701719},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.1145/3589334.3645586},
+doi = {10.1145/3589334.3645586},
+booktitle = {Proceedings of the ACM on Web Conference 2024},
+pages = {815–826},
+numpages = {12},
+series = {WWW '24}
 }
 ```
